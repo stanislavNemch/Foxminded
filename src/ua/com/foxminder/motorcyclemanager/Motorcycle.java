@@ -35,10 +35,26 @@ public class Motorcycle {
     }
 
     private void distanceNew (int distanceNew){
-        distance += distanceNew;
+        if (distanceNew < 0){
+            throw new IllegalArgumentException("Ввод отрицательного пробега не предусмотрен!!!");
+        } else {
+            distance += distanceNew;
+        }
     }
     private void distanceNew (double distanceNew){
-        distance += (int) Math.round(distanceNew);
+        if (distanceNew < 0){
+            throw new IllegalArgumentException("Ввод отрицательного пробега не предусмотрен!!!");
+        } else {
+            distance += (int) Math.round(distanceNew);
+        }
+    }
+
+    public boolean isReadyToService(){
+        if (distance > 8000) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     public void setDistance(int distance) {
