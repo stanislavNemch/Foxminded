@@ -34,12 +34,12 @@ public class Motorcycle {
         this.color = Color.valueOf(colorNew.toUpperCase());
     }
 
-    public void distanceNew (int distanceNew){
+    private void distanceNew (int distanceNew){
         distance = distanceNew;
     }
 
     public void setDistance(int distance) {
-         this.distance = distance;
+         distanceNew(distance);
     }
 
     @Override

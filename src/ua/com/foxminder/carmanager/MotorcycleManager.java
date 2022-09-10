@@ -1,6 +1,6 @@
 package ua.com.foxminder.carmanager;
 
-public class CarManager {
+public class MotorcycleManager {
 
     public static void main(String[] args) {
 
