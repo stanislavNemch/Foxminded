@@ -3,9 +3,9 @@ package ua.com.foxminder.carmanager;
 public class CarManager {
     public static void main(String[] args) {
 
-        Car prius = new Car("Toyota Prius", Color.GREEN, 2008, 1200, 1500);
-        Bus renault = new Bus("Renault Laguna", Color.WHITE, 2000, 1600, 9700);
-        Bus renault2 = new Bus("Renault Laguna", Color.WHITE, 2000, 1600, 9700);
+        Car prius = new PassengerCar("Toyota Prius", Color.GREEN, 2008, 1200, 1500);
+        Car renault = new Bus("Renault Laguna", Color.WHITE, 2000, 1600, 9700);
+        Car renault2 = new Bus("Renault Laguna", Color.WHITE, 2000, 1600, 9700);
 
         prius.addDistance(1000);
         prius.addDistance(2000);
