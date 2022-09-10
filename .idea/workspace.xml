@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d37ab232-8ac9-4854-bc6d-4ba9f2fb76ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ua/com/foxminder/carmanager/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/com/foxminder/carmanager/CarManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/com/foxminder/carmanager/Motorcycle.java" afterDir="false" />
+    <list default="true" id="d37ab232-8ac9-4854-bc6d-4ba9f2fb76ff" name="Changes" comment="Class done suzuki, yamaha">
+      <change afterPath="$PROJECT_DIR$/src/ua/com/foxminder/carmanager/Color.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/com/foxminder/carmanager/CarManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/com/foxminder/carmanager/CarManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/com/foxminder/carmanager/Motorcycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/com/foxminder/carmanager/Motorcycle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +17,7 @@
       <list>
         <option value="package-info" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -47,8 +48,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662757385074</updated>
-      <workItem from="1662757386819" duration="1868000" />
+      <workItem from="1662757386819" duration="10631000" />
     </task>
+    <task id="LOCAL-00001" summary="Class done suzuki, yamaha">
+      <created>1662760794212</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662760794212</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -64,5 +73,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Class done suzuki, yamaha" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class done suzuki, yamaha" />
   </component>
 </project>

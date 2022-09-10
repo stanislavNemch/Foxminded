@@ -1,12 +1,71 @@
 package ua.com.foxminder.carmanager;
 
+import java.util.Objects;
+
 public class Motorcycle {
 
     String name;
     int yearOfProduction;
     int price;
     int weight;
-    String color;
+    Color color;
     String engineType;
     boolean isReadyToDrive;
+    private int distance;
+
+    public Motorcycle(String name, int yearOfProduction, int price, int weight, Color color, String engineType, boolean isReadyToDrive) {
+        this.name = name;
+        this.yearOfProduction = yearOfProduction;
+        this.price = price;
+        this.weight = weight;
+        this.color = color;
+        this.engineType = engineType;
+        this.isReadyToDrive = isReadyToDrive;
+    }
+
+    public void repair (){
+        isReadyToDrive = true;
+    }
+    public void destroy (){
+        isReadyToDrive = false;
+    }
+
+    public void painting (String colorNew){
+        this.color = Color.valueOf(colorNew.toUpperCase());
+    }
+
+    public void distanceNew (int distanceNew){
+        distance = distanceNew;
+    }
+
+    public void setDistance(int distance) {
+         this.distance = distance;
+    }
+
+    @Override
+    public String toString() {
+        return "Motorcycle{" +
+                "name='" + name + '\'' +
+                ", yearOfProduction=" + yearOfProduction +
+                ", price=" + price +
+                ", weight=" + weight +
+                ", color=" + color +
+                ", engineType='" + engineType + '\'' +
+                ", isReadyToDrive=" + isReadyToDrive +
+                ", distance=" + distance +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Motorcycle that = (Motorcycle) o;
+        return isReadyToDrive == that.isReadyToDrive && distance == that.distance && color == that.color;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(color, isReadyToDrive, distance);
+    }
 }

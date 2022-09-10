@@ -4,24 +4,39 @@ public class CarManager {
 
     public static void main(String[] args) {
 
-        Motorcycle suzuki = new Motorcycle();
+        Motorcycle suzuki = new Motorcycle("Suzuki GSX-R1000",2021, 16000,600,
+                                Color.BLACK,"diesel",true);
 
-        suzuki.name = "Suzuki GSX-R1000";
-        suzuki.yearOfProduction = 2021;
-        suzuki.price = 16000;
-        suzuki.weight = 600;
-        suzuki.color = "black";
-        suzuki.engineType = "diesel";
-        suzuki.isReadyToDrive = true;
+        Motorcycle yamaha = new Motorcycle("Yamaha FZ1",2007,9000,700, Color.YELLOW,
+                            "gas",false);
 
-        Motorcycle yamaha = new Motorcycle();
+//        Motorcycle yamah = new Motorcycle("Yamaha FZ1",2007,9000,700, Color.YELLOW,
+//                "gas",false);
 
-        yamaha.name = "Yamaha FZ1";
-        yamaha.yearOfProduction = 2007;
-        yamaha.price = 9000;
-        yamaha.weight = 700;
-        yamaha.color = "orange";
-        yamaha.engineType = "gas";
-        yamaha.isReadyToDrive = false;
+        System.out.println(suzuki);
+        System.out.println(yamaha);
+
+        System.out.println(suzuki.equals(yamaha));
+
+        suzuki.setDistance(250000);
+        yamaha.setDistance(250000);
+
+        suzuki.destroy();
+        yamaha.destroy();
+
+        System.out.println(suzuki);
+        System.out.println(yamaha);
+
+        System.out.println(suzuki.equals(yamaha));
+
+        suzuki.repair();
+        yamaha.repair();
+
+        yamaha.painting("black");
+
+        System.out.println(suzuki);
+        System.out.println(yamaha);
+
+        System.out.println(suzuki.equals(yamaha));
     }
 }
