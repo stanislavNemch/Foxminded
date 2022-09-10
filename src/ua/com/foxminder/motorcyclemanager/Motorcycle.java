@@ -1,4 +1,4 @@
-package ua.com.foxminder.carmanager;
+package ua.com.foxminder.motorcyclemanager;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package ua.com.foxminder.carmanager;
+package ua.com.foxminder.motorcyclemanager;
 
 public class MotorcycleManager {
 
