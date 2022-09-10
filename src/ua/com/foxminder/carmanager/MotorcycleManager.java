@@ -21,6 +21,8 @@ public class MotorcycleManager {
         suzuki.setDistance(250000);
         yamaha.setDistance(250000);
 
+        //yamaha.painting("yellow");
+
         suzuki.destroy();
         yamaha.destroy();
 
@@ -33,6 +35,9 @@ public class MotorcycleManager {
         yamaha.repair();
 
         yamaha.painting("black");
+
+        suzuki.setDistance(11.5);
+        yamaha.setDistance(-11.5);
 
         System.out.println(suzuki);
         System.out.println(yamaha);

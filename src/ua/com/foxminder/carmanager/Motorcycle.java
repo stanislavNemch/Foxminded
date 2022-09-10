@@ -11,7 +11,7 @@ public class Motorcycle {
     Color color;
     String engineType;
     boolean isReadyToDrive;
-    private int distance;
+    private int distance = 0;
 
     public Motorcycle(String name, int yearOfProduction, int price, int weight, Color color, String engineType, boolean isReadyToDrive) {
         this.name = name;
@@ -35,11 +35,18 @@ public class Motorcycle {
     }
 
     private void distanceNew (int distanceNew){
-        distance = distanceNew;
+        distance += distanceNew;
+    }
+    private void distanceNew (double distanceNew){
+        distance += (int) Math.round(distanceNew);
     }
 
     public void setDistance(int distance) {
          distanceNew(distance);
+    }
+
+    public void setDistance(double distance) {
+        distanceNew(distance);
     }
 
     @Override

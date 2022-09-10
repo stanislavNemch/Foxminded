@@ -2,7 +2,7 @@ package ua.com.foxminder.carmanager;
 
 public enum Color {
 
-    BLACK ("Black"), ORANGE ("Orange"), WHITE ("White"), YELLOW ("Yellow"), BLUE ("Blue"), GREEN ("Green");
+    BLACK("Black"), ORANGE("Orange"), WHITE("White"), YELLOW("Yellow"), BLUE("Blue"), GREEN("Green");
 
     private final String color;
 
