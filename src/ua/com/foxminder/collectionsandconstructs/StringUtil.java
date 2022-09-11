@@ -6,7 +6,7 @@ public class StringUtil {
 
         StringBuilder recoverSource = new StringBuilder();
 
-        for (String word : text.split(" ")) { // Перебор массива слов
+        for (String word : text.split(" ")) { // Перебор for-each массива слов
 
             System.out.println(word.toCharArray());  // Вывод слов из массива разбитых слов
 
