@@ -6,16 +6,16 @@ public class StringUtil {
 
         StringBuilder recoverSource = new StringBuilder();
 
-        for (String word : text.split(" ")) {
+        for (String word : text.split(" ")) { // Перебор массива слов
 
-            System.out.println(word.toCharArray());
+            System.out.println(word.toCharArray());  // Вывод слов из массива разбитых слов
 
-            for (char letter : word.toCharArray()) {
-                System.out.println(letter);
-                System.out.println(recoverSource.append(letter));
+            for (char letter : word.toCharArray()) {      // for-each для перебора букв разбитого массива слов
+                System.out.println(letter);     // Вывод букв из беребора массива слов
+                System.out.println(recoverSource.append(letter)); // Формирование вывода слова, на основании перебора массива букв
             }
 
-            recoverSource.append(" ");
+            recoverSource.append(" "); //Добавление пробела между словами
         }
     }
 
