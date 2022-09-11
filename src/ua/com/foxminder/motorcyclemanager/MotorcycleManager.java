@@ -1,5 +1,8 @@
 package ua.com.foxminder.motorcyclemanager;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MotorcycleManager {
     public static void main(String[] args) {
 
@@ -11,6 +14,13 @@ public class MotorcycleManager {
 
 //        Motorcycle yamah = new Motorcycle("Yamaha FZ1",2007,9000,700, Color.YELLOW,
 //                "gas",false);
+
+        List<Motorcycle> motorcycles = new ArrayList<>();
+
+        motorcycles.add(suzuki);
+        motorcycles.add(yamaha);
+
+        System.out.println(motorcycles + "\n");
 
         System.out.println(suzuki);
         System.out.println(yamaha);
