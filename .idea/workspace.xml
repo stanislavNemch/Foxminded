@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d37ab232-8ac9-4854-bc6d-4ba9f2fb76ff" name="Changes" comment="Lessons done 3.3">
-      <change afterPath="$PROJECT_DIR$/src/ua/com/foxminder/carmanager/Serviceable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ua/com/foxminder/collectionsandconstructs/StringUtil.java" afterDir="false" />
+    <list default="true" id="d37ab232-8ac9-4854-bc6d-4ba9f2fb76ff" name="Changes" comment="ArrayListUtil done">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/com/foxminder/database/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/com/foxminder/database/DBWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/com/foxminder/database/DataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/com/foxminder/database/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/com/foxminder/carmanager/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/com/foxminder/carmanager/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ua/com/foxminder/carmanager/CarManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/com/foxminder/carmanager/CarManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,26 +38,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Stas/Education/FoxmindEd/IntelliJIDEA/Foxminded/src&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "F:/Stas/Soft/mysql-connector-java-8.0.30/mysql-connector-java-8.0.30/mysql-connector-java-8.0.30.jar",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.scopes"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JAVA&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ua.com.foxminder.motorcyclemanager" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Stas\Education\FoxmindEd\IntelliJIDEA\Foxminded\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Stas\Education\FoxmindEd\IntelliJIDEA\Foxminded\Java Start" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="ua.com.foxminder.motorcyclemanager" />
@@ -74,7 +85,18 @@
       <workItem from="1662797444040" duration="7740000" />
       <workItem from="1662808040850" duration="11133000" />
       <workItem from="1662835023144" duration="1960000" />
-      <workItem from="1662841463943" duration="3984000" />
+      <workItem from="1662841463943" duration="4642000" />
+      <workItem from="1662894776878" duration="83000" />
+      <workItem from="1662894881858" duration="3131000" />
+      <workItem from="1662913380187" duration="4188000" />
+      <workItem from="1663016863681" duration="5000" />
+      <workItem from="1663079249136" duration="192000" />
+      <workItem from="1663079602390" duration="117000" />
+      <workItem from="1663080146001" duration="359000" />
+      <workItem from="1663080616351" duration="49000" />
+      <workItem from="1663081176618" duration="47000" />
+      <workItem from="1663619616198" duration="303000" />
+      <workItem from="1663620121723" duration="8493000" />
     </task>
     <task id="LOCAL-00001" summary="Class done suzuki, yamaha">
       <created>1662760794212</created>
@@ -118,7 +140,49 @@
       <option name="project" value="LOCAL" />
       <updated>1662832693111</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Lessons done 4.1">
+      <created>1662846928254</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662846928254</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Lessons done 4.2">
+      <created>1662895769578</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662895769578</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Lessons done 4.2">
+      <created>1662896257293</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662896257293</updated>
+    </task>
+    <task id="LOCAL-00010" summary="ArrayList Motorcycle done">
+      <created>1662897618713</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1662897618713</updated>
+    </task>
+    <task id="LOCAL-00011" summary="ArrayList Motorcycle done">
+      <created>1662904830458</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1662904830458</updated>
+    </task>
+    <task id="LOCAL-00012" summary="ArrayListUtil done">
+      <created>1662918711332</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1662918711332</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,7 +205,11 @@
     <MESSAGE value="Class done 2.8" />
     <MESSAGE value="Class done 3.3" />
     <MESSAGE value="Lessons done 3.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lessons done 3.3" />
+    <MESSAGE value="Lessons done 4.1" />
+    <MESSAGE value="Lessons done 4.2" />
+    <MESSAGE value="ArrayList Motorcycle done" />
+    <MESSAGE value="ArrayListUtil done" />
+    <option name="LAST_COMMIT_MESSAGE" value="ArrayListUtil done" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
